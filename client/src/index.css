@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global centering styles */
+@layer base {
+  html, body, #root {
+    @apply flex items-center justify-center min-h-screen;
+  }
+}
